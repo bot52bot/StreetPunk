@@ -6,34 +6,35 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re
 
 cl = LINETCR.LINE()
-cl.login(token="Em59h7P0anB8oqsdsFmd.kPCC2cheTsBk4ifKqk7WRq.1H+WSpJpsKxyp1aTYc1PxXBm1NnxfN3hwqwk7xVlsPw=")
+cl.login(token="EmLO74bVtkpmo1RO0Ln9.lx6iYJ1ZQ3OTRUu4MoLSQq.U4ciUWB81tnXCWlUSNSzv3aQbAi43FIgP/uiXZVNUHk=")
 
 ki = LINETCR.LINE()
-ki.login(token="EmAzAHuLISQrbY2VXDjc.PbGVtJjdxHS3kIJJN01VBa.ZQPtFiL9LkG+HKb5zA1Wdv0CEkojWS0XHuetxccr/94=")
+ki.login(token="EmpYFvEcoVYxm0yKgG3c.kPCIxd3dx0LAHGGMosEvBa.+cl/ASX02L2uR1rO8hILexKyxAPgjhBcSHz941O8JJ4=")
 
 kk = LINETCR.LINE()
-kk.login(token="ElL4MF86qRaPjHnDIzj6.2ftJgV8VbVQmEFaQDwRqjG.ahlmycPSa1x/pWPUhEUcLOOz0DzXY3dnuzWLECcZm7w=")
+kk.login(token="EmFfB9MKm6K5cWzaHTud.ljW+dg/qfx/S+nua8chOdq.qb6cEnwV35DvutN/DBZFiz+oGHA8o3yTxPkGcdgOYyM=")
 
 kc = LINETCR.LINE()
-kc.login(token="ElXRShefUkdmlJTWOrjf.JzaCcUhD1iE3rJ54zYYXpW.w+C8XyruJp6jB+dSRit//74cMky2uUXhOKzwBYI6b4Q=")
+kc.login(token="Em91waQIcvXWyMrE8SMc.jB1lTE0oNuMV5aYqlcvM7a.7P/be3MufcdYxm9DNnjlwb3iznUwTax6a/EdRmIq8Gk=")
 
 ks = LINETCR.LINE()
-ks.login(token="Ele6CcuDiZklUKzJDdF3.tx33y/gzUgb/MZVWNKOs8W.KZ4QEwgIgCm0sFIK5qtVlxGtI71pPV2qosGIxQytazY=")
+ks.login(token="Em1Ng2bjqIt0PQKF53u8.Jjb37kXN5qtOgywVUVxMka.NrBUqXpvv59RecV2I0vui55DbWj8LCfHv4vkLv4gYL0=")
 
 ka = LINETCR.LINE()
-ka.login(token="El4m5sGLSNVszq7ePPZ4./2D0rgO7yZ6/2l7ALgJSfa.1w3ToEZs/UjtEVhhinqP5PfPRTq2tkdqX1OBcimH4KQ=")
+ka.login(token="Emp4IVoycNC685EdM4wc.fFYtPbBtjOY2lz8KEQLnRa.GFI/r5dXZipbIL5kp8ZPrsx4gWyPfp15OQU9TBYuwmc=")
 
 kb = LINETCR.LINE()
-kb.login(token="ElnEWUyjgaQTwHpUqTib.eYEa7xHBtex0js+NkxbMMW.7mJxQTNuOjqjN3rzdh4X275iIuqRwCUXwMepPdT/QpQ=")
+kb.login(token="EmceLXcU2XAaHjEtq9Od.wp6x+oL8aC5iziDl02XO+q.t6NpTrMTfRrvRfko8jegPEP96ZfF+fVlfb6CM2K7QrY=")
 
 ko = LINETCR.LINE()
-ko.login(token="ElTYVoHWsBNYmEeqGc10.DPw4UMcms228AijcvTkl0a.V+h+9GZIYDuOfjWpYIj5pm5mHFI4+Ne2E0C75IrVvLQ=")
+ko.login(token="EmyNQFxguwr63NJxKA76.f3MapxCMh/uLyzU9cv/8DG.60jIpvVeVNVIE8uSFbA3244cG181JOp6cEXiGwWTxJA=")
 
-print "👋Welcome to emilia bot👍"
+print "=====StreetPunkBot====="
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage =""" 🔸Emilia Bot🔸
+helpMessage =""" [Menu]
+
 
      🔯 Command publick 🔯
 

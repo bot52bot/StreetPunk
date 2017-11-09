@@ -36,60 +36,63 @@ sys.setdefaultencoding('utf-8')
 helpMessage =""" [Menu]
 
 
-     🔯 Command publick 🔯
+    ⛥ Command public ⛥
+ 
+✵ Mid
+✵ Me
+✵ Tl:
+✵ Check:<mid>
+✵ Contact off/on
+✵ Join off/on
+✵ Say <teks>
+✵ Leave︎ on/off
+✵ Add on/off
+✵ Share on/off
+✵ Message change:<Teks>
+✵ Message check
+✵ Up
+✵ Spam @
+✵ Woi/Taggall/Mention
+✵ Gift
+✵ Notifed on/off
 
-􀜁􀅔Har Har􏿿。Mid
-􀜁􀅔Har Har􏿿。Me
-􀜁􀅔Har Har􏿿。Tl:
-􀜁􀅔Har Har􏿿。Check:<mid>
-􀜁􀅔Har Har􏿿。Contact off/on
-􀜁􀅔Har Har􏿿。Join off/on
-􀜁􀅔Har Har􏿿。Say <teks>
-􀜁􀅔Har Har􏿿。Leave︎ on/off
-􀜁􀅔Har Har􏿿。Add on/off
-􀜁􀅔Har Har􏿿。Share on/off
-􀜁􀅔Har Har􏿿。Message change:<Teks>
-􀜁􀅔Har Har􏿿。Message check
-􀜁􀅔Har Har􏿿。Up
-􀜁􀅔Har Har􏿿。Spam @
-􀜁􀅔Har Har􏿿。Woi/Taggall/Mention
-􀜁􀅔Har Har􏿿。Gift
-􀜁􀅔Har Har􏿿。Notifed on/off
+    ⛥ Command in the groups ⛥
 
-     🔯 Command in the groups 🔯
+☻ Open
+☻ Close
+☻ Url
+☻ Invite：(mid)
+☻ Kick：(mid)
+☻ Ginfo
+☻ Cancel
+☻ Gn <...>
+☻ Spam invit
 
-􀜁􀅔Har Har􏿿。 Open
-􀜁􀅔Har Har􏿿。 Close
-􀜁􀅔Har Har􏿿。 Url
-􀜁􀅔Har Har􏿿。 Invite：(mid)
-􀜁􀅔Har Har􏿿。 Kick：(mid)
-􀜁􀅔Har Har􏿿。 Ginfo
-􀜁􀅔Har Har􏿿。 Cancel
-􀜁􀅔Har Har􏿿。 Gn <...>
-􀜁􀅔Har Har􏿿。 Spam invit
+     ⛥ Command kicker ⛥
+         ~Admin only~
 
-     🔯 Command kicker 🔯
-             ~Admin only~
+☣ Kicker-[kicker join group]
+☣ Leave-[kicker leave group]
+☣ Nk -[Ehm...]
+☣ Nk (nama)-[Ehm...]
+☣ Hallo/Hushus (@) -[Ehmm...]
+☣ Bl (@)-[blacklist member]
+☣ Bl(send kontak)
+☣ Kill(/Kill bl)-[ehm.. user blacklist]
+☣ Unbl (@)-[whitelist user]
+☣ Unbl(send kontak)
+☣ Bllist-[cek user blacklist]
+☣ Salken/Destroy-[kalo ini ehm...]
 
-👊 Kicker-[kicker join group]
-👊 Leave-[kicker leave group]
-👊 Nk -[Ehm...]
-👊 Nk (nama)-[Ehm...]
-👊 Hallo/Hushus (@) -[Ehmm...]
-👊 Bl (@)-[blacklist member]
-👊 Bl(send kontak)
-👊 Kill(/Kill bl)-[ehm.. user blacklist]
-👊 Unbl (@)-[whitelist user]
-👊 Unbl(send kontak)
-👊 Bllist-[cek user blacklist]
-👊 Salken/Destroy-[kalo ini ehm...]
+
+S̘̱̻̺̄͢t̷̝̮̬̳͓̙̩͌̿r͙̘̬̥̠̙͇̳ͯ̌ͯ͑ͫ̏̌̿e̮͔̭̽ͮ̔͊̍̃e͈̫̞̤ͤ̐̅͌̎ͣͦ̄t͍̼̱ͪͦ̏̾̚ ̡̘̪̘̗̲̂͟P̦̥̩̪͍͍̜ͪ̽̃̾ͨͦͬ̈́ͅṵ͍̺͛͡n̵͈͂ͤͫ̒̋͗ͧk̲̮̘̠ͨ̅̏ͯ̍̂̋̀̕ͅ ̧̬̳̙͔̺ͥB̃̐͏͓o̢̮̫͚͑ͦ̂ẗ̙̖̺́̇̎͐͊ͦ͑ͫ
 """
 
 Setgroup =""" Setting Group
-❕Protect Qr -- [Qr on/off]
-❕Mid Via Contact -- [Contact on/off]
-❕Notifed -- [Notifed on/off
-❕Block invite -- [Cancel on/off]
+⛓ Protect Qr -- [Qr on/off]
+⛓ Mid Via Contact -- [Contact on/off]
+⛓ Notifed -- [Notifed on/off
+⛓ Block invite -- [Cancel on/off]
 """
 KAC=[ki,kk,kc,ks,ka,kb,ko]
 mid = cl.getProfile().mid
@@ -102,7 +105,7 @@ Fmid = kb.getProfile().mid
 Gmid = ko.getProfile().mid
 
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid]
-admin=["u2a971cd821c4b526cae0816440aef0ad"]
+admin=["u0f020150405fe23cace51efbbe590a76"]
 wait = {
     'contact':True,
     'autoJoin':True,
@@ -112,7 +115,7 @@ wait = {
     'autoAdd':False,
     'message':"Thanks for add me",
     "lang":"JP",
-    "comment":"Autolike By Me\n\nhttp://line.me/ti/p/YQ2uhrdbZ2",
+    "comment":"Autolike By Me\n\nhttp://line.me/ti/p/~deadscreamer",
     "likeOn":True,
     "commentOn":True,
     "commentBlack":{},
@@ -810,7 +813,7 @@ def bot(op):
                     cl.updateGroup(X)
                 else:
                     cl.sendText(msg.to,"It can't be used besides the group.")
-            elif ("Raphi gn " in msg.text):
+            elif ("Punkers gn " in msg.text):
                 if msg.toType == 2:
                     X = cl.getGroup(msg.to)
                     X.name = msg.text.replace("Cv1 gn ","")
@@ -834,29 +837,29 @@ def bot(op):
             elif "Kick " in msg.text:
                 midd = msg.text.replace("Kick ","")
                 cl.kickoutFromGroup(msg.to,[midd])
-            elif "Raphi kick " in msg.text:
+            elif "Punkers kick " in msg.text:
                 midd = msg.text.replace("Cv1 kick ","")
                 ki.kickoutFromGroup(msg.to,[midd])
-            elif "Rem kick " in msg.text:
+            elif "Kameradz kick " in msg.text:
                 midd = msg.text.replace("Cv2 kick ","")
                 kk.kickoutFromGroup(msg.to,[midd])
-            elif "Emilia kick " in msg.text:
+            elif "Crewsakan kick " in msg.text:
                 midd = msg.text.replace("Cv3 kick ","")
                 kc.kickoutFromGroup(msg.to,[midd])
             elif "Invite " in msg.text:
                 midd = msg.text.replace("Invite ","")
                 cl.findAndAddContactsByMid(midd)
                 cl.inviteIntoGroup(msg.to,[midd])
-            elif "Raphi invite " in msg.text:
-                midd = msg.text.replace("Raphi invite ","")
+            elif "Punkers invite " in msg.text:
+                midd = msg.text.replace("Punkers invite ","")
                 ki.findAndAddContactsByMid(midd)
                 ki.inviteIntoGroup(msg.to,[midd])
-            elif "Rem invite " in msg.text:
-                midd = msg.text.replace("Rem invite ","")
+            elif "Kameradz invite " in msg.text:
+                midd = msg.text.replace("Kameradz invite ","")
                 kk.findAndAddContactsByMid(midd)
                 kk.inviteIntoGroup(msg.to,[midd])
-            elif "Emilia invite " in msg.text:
-                midd = msg.text.replace("Emilia invite ","")
+            elif "Crewsakan invite " in msg.text:
+                midd = msg.text.replace("Crewsakan invite ","")
                 kc.findAndAddContactsByMid(midd)
                 kc.inviteIntoGroup(msg.to,[midd])
             elif msg.text in ["Mybot"]:
@@ -980,7 +983,7 @@ def bot(op):
                         cl.sendText(msg.to,"Can not be used outside the group")
                     else:
                         cl.sendText(msg.to,"Not for use less than group")
-            elif msg.text in ["Raphi open","K1 open"]:
+            elif msg.text in ["Punkers open","K1 open"]:
                 if msg.toType == 2:
                     X = cl.getGroup(msg.to)
                     X.preventJoinByTicket = False
@@ -1036,7 +1039,7 @@ def bot(op):
                         cl.sendText(msg.to,"Can not be used outside the group")
                     else:
                         cl.sendText(msg.to,"Not for use less than group")
-            elif msg.text in ["Raphi close","K1 close"]:
+            elif msg.text in ["Punkers close","K1 close"]:
                 if msg.toType == 2:
                     X = ki.getGroup(msg.to)
                     X.preventJoinByTicket = True
@@ -1686,7 +1689,7 @@ def bot(op):
                         cl.sendText(msg.to,"Can't be used outside the group")
                     else:
                         cl.sendText(msg.to,"Not for use less than group")
-            elif msg.text in ["Raphi close","Cv1 close"]:
+            elif msg.text in ["Punkers close","Cv1 close"]:
                 if msg.toType == 2:
                     x = cl.getGroup(msg.to)
                     if x.preventJoinByTicket == True:
@@ -1785,7 +1788,7 @@ def bot(op):
          #-------------Fungsi Jam Update Finish-------------------#
          #----------------FUNGSI CEK SIDER-------------------#
             elif msg.text == "Setlastpoint":
-                cl.sendText(msg.to, "Set the lastseens' point(｀・ω・´)\n\n07:19:20")
+                cl.sendText(msg.to, "Set the lastseens' point(｀・ω・´)")
                 try:
                   del wait2['readPoint'][msg.to]
                   del wait2['readMember'][msg.to]
@@ -2312,14 +2315,14 @@ def bot(op):
                 ko.sendText(msg.to,(bctxt))
                 ke.sendText(msg.to,(bctxt))
                 ku.sendText(msg.to,(bctxt))
-            elif msg.text in ["Respon","respon","Absen","absen"]:
-                cl.sendText(msg.to,"Absen woi buru² ah lama")
-                ki.sendText(msg.to,"Raphi")
-                kk.sendText(msg.to,"Rem")
-                ks.sendText(msg.to,"Emilia")
-                ka.sendText(msg.to,"Ram")
-                kb.sendText(msg.to,"Sagiri")
-                kc.sendText(msg.to,"Hadir")
+            elif msg.text in ["Punkers","respon","Absen","absen"]:
+                cl.sendText(msg.to,"OiOi Punkers")
+                ki.sendText(msg.to,"OiOi Punkers")
+                kk.sendText(msg.to,"OiOi Punkers")
+                ks.sendText(msg.to,"OiOi Punkers")
+                ka.sendText(msg.to,"OiOi Punkers")
+                kb.sendText(msg.to,"OiOi Punkers")
+                kc.sendText(msg.to,"OiOi Punkers")
             elif msg.text in ["PING","Ping","ping"]:
                 ki.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􏿿􀜁􀅔Har Har􏿿")
                 kk.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􏿿􀜁􀅔Har Har􏿿")
@@ -2342,7 +2345,7 @@ def bot(op):
             elif msg.text in ["speed","Speed"]:
               if msg.from_ in admin:      	
                 start = time.time()
-                cl.sendText(msg.to, "Speed ku pelan hanya segini")
+                cl.sendText(msg.to, "OiOi Punkers Sebentar....)
                 elapsed_time = time.time() - start
                 cl.sendText(msg.to, "%sseconds" % (elapsed_time))
       #-------------Fungsi Speedbot Finish---------------------#
